@@ -1,0 +1,2 @@
+tabstave notation=true key=C time=4/4
+tablature=false notes C-D/3E- G#/5 | G-E-A/4 D#/4																															
