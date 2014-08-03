@@ -90,7 +90,7 @@
 		</p>
 		
 		<form action="edit2.php" method="post"> 
-		    <textarea class= rows="20" cols="100" name="content"><?php $file2 = file_get_contents('newthing.txt', FILE_USE_INCLUDE_PATH);echo $file2;?>
+		    <textarea class= rows="200" cols="100" name="content"><?php $file2 = file_get_contents('newthing.txt', FILE_USE_INCLUDE_PATH);echo $file2;?>
 			</textarea>
 		    <br />
 		    <input type="submit" value="ENTER" />

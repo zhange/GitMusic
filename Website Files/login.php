@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -30,21 +29,6 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-
-    <!-- VexFlow Compiled Source -->
-
-    <link href='http://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT|Yanone+Kaffeesatz|Tangerine'
-   rel='stylesheet' type='text/css'>
-    <link href="http://vwww.vexflow.com/vextab/tabdiv.css" media="screen" rel="Stylesheet" type="text/css" />
-    <link href="http://www.vexflow.com/vextab/style.css" media="screen" rel="Stylesheet" type="text/css" />
-
-    <script src="vexflow-master/build/vexflow/vexflow-min.js"></script>
-    <script src="vextab/support/vexflow-min.js"></script>
-
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.js"></script>
-    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
-    <script src="http://www.vexflow.com/support/tabdiv-debug.js"></script>
-
   </head>
 
   <body>
@@ -58,11 +42,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">GitMusic</a>
+          <a class="navbar-brand" href="index.html" class="active">GitMusic</a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="about.html">About</a></li>
+            <li><a href="about.html">About</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
               <li><a href="account.html">Welcome, ERIC</a></li>
@@ -73,26 +57,19 @@
 
     <div class="container">
 
-      <div class="abouttext">
-        
-        <p class="lead">The objective of this project is to create a github-like environment for creating sheet music. Users will be able to write pieces of music online, and take advantage of the version control and collaborative power of git.
-        </p>
-		
-    		Some (planned) features:
-    		</p>
-    		<ul>
-    			<li>Version control, branching, etc. (Git features)
-    			<li>User contribution tracking
-    			<li>Text based note representation
-    			<li>Online viewing of sheet music
-    			<li>Stat tracking (downloads, listens, etc.)
-    			<li>Connection with social media
-    		</ul>
+      <form role="form">
+        <center><h2 class="form-signin-heading" size="1">Login</h2></center>
+        <input type="user" width="20" class="form-control" placeholder="Username"required autofocus></p>
+        <input type="password" class="form-control" placeholder="Password" required>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      </form>
 
-      </div>
-
-    </div><!-- /.container -->
-
+    </div> <!-- /container -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -101,3 +78,5 @@
     <script src="../../dist/js/bootstrap.min.js"></script>
   </body>
 </html>
+
+
