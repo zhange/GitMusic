@@ -29,25 +29,19 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-
     <!-- VexFlow Compiled Source -->
-
     <link href='http://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT|Yanone+Kaffeesatz|Tangerine'
    rel='stylesheet' type='text/css'>
     <link href="http://vwww.vexflow.com/vextab/tabdiv.css" media="screen" rel="Stylesheet" type="text/css" />
     <link href="http://www.vexflow.com/vextab/style.css" media="screen" rel="Stylesheet" type="text/css" />
-
     <script src="vexflow-master/build/vexflow/vexflow-min.js"></script>
     <script src="vextab/support/vexflow-min.js"></script>
-
     <script src="http://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.js"></script>
     <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
     <script src="http://www.vexflow.com/support/tabdiv-debug.js"></script>
-
   </head>
 
   <body>
-
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -71,32 +65,24 @@
     </div>
 
     <div class="container">
-
       <div class="starter-template">
-	  
         <p class="lead">EDIT</p>
-		
 		<div class="titles">
 			Title:</p>
 		</div>
-		
 		<textarea rows="2" cols="100">New Composition</textarea>
-		
 		<div class="titles">
 			Authors:</p>
 		</div>
-		
 		<textarea rows="2" cols="100">ERIC</textarea>
 		</p>
-		
 		<form action="edit2.php" method="post"> 
 		    <textarea class= rows="200" cols="100" name="content"><?php $file2 = file_get_contents('newthing.txt', FILE_USE_INCLUDE_PATH);echo $file2;?>
 			</textarea>
 		    <br />
 		    <input type="submit" value="ENTER" />
 		</form>
-        
-      </div><!-- /.container -->
+      </div>
     </div>
 
     <!-- Bootstrap core JavaScript

@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -30,29 +29,22 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-
     <!-- VexFlow Compiled Source -->
-
     <link href='http://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT|Yanone+Kaffeesatz|Tangerine'
    rel='stylesheet' type='text/css'>
     <link href="http://vwww.vexflow.com/vextab/tabdiv.css" media="screen" rel="Stylesheet" type="text/css" />
     <link href="http://www.vexflow.com/vextab/style.css" media="screen" rel="Stylesheet" type="text/css" />
-
     <script src="vexflow-master/build/vexflow/vexflow-min.js"></script>
     <script src="vextab/support/vexflow-min.js"></script>
-
     <script src="http://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.js"></script>
     <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
     <script src="http://www.vexflow.com/support/tabdiv-debug.js"></script>
-	
 	<Files read.html>
 		AddType application/x-httpd-php .html
 	</Files>
-
   </head>
 
   <body>
-
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -76,22 +68,17 @@
     </div>
 
     <div class="container">
-
       <div class="starter-template">
-        
         <p class="lead">New Composition</p>
 		By: ERIC
-
         <div style="width:680; margin-left: auto; margin-right: auto;">
           <div class="vex-tabdiv"
             width=700 scale=0.9 editor="false"
-            editor_width=640 editor_height=230>options space=20
-            
+            editor_width=640 editor_height=230>options space=20 
 			<?php
 				$file2 = file_get_contents('newthing.txt', FILE_USE_INCLUDE_PATH);
 				echo $file2;
 			?>
-
           </div>
       </div><!-- /.container -->
     </div>
